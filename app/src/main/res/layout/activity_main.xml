@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumit.spiderbot.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/ds_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_value="50" />
+
+                <TextView
+                    android:id="@+id/tx_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
